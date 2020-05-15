@@ -1,0 +1,214 @@
+<html>
+    <head>
+        <title>The Powerful Saturn V</title>
+        <link href="Styles.css" rel="stylesheet" stype="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+          }
+          
+          .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+          }
+          
+          .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .overlay a:hover, .overlay a:focus {
+            color: #f1f1f1;
+          }
+          
+          .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+          }
+          
+          @media screen and (max-height: 450px) {
+            .overlay a {font-size: 20px}
+            .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+            }
+          }
+          </style>
+    </head>
+
+    <body>
+
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="Menu.html">Menu</a>
+          <a href="N1.html">N1-L3</a>
+        </div>
+      </div>
+
+      <audio autoplay loop controls>
+        <source src="Interstellar.mp3" type="audio/mpeg" >
+      Your browser does not support the audio element.
+      </audio>
+
+    <div id="main">
+        <div id="Title" style="text-align: center; font-size: 36px; font-family: Helvetica;">
+          <span style="font-size:30px;cursor:pointer;color: white;" onclick="openNav()">&#9776; Navigation</span>
+        <h1>Saturn V - USA</h1>
+        <img src="Saturn_V_gif.gif", width="960" height="406" alt="Saturn V Taking Off">
+        </div>
+
+        <h2>What is the Saturn V?</h2>
+        <div id="Paragraph1" style="color: white; font-size: 26px;;">
+            <p>Saturn V was an American human-rated super heavy-lift launch vehicle used by NASA between 1967 and 1973.</p>
+            <p>The three-stage liquid-propellant expendable rocket was developed to support the Apollo program for human exploration of the Moon.</p>
+            <p>It was then later used to launch Skylab, the first American space station.</p> 
+        </div>
+
+        <div id="LeftFacts">
+            <h2 style="text-align: center;">Missions</h2>
+            <table>
+                <tr>
+                  <th>Mission Name</th>
+                  <th>Crew</th>
+                  <th>Date</th>
+                  <th>Patch</th>
+                  <th>Mission</th>
+                </tr>
+                <tr>
+                  <td>Apollo 8</td>
+                  <td>Frank Borman, James Lovell, William Anders</td>
+                  <td>21/12/1968</td>
+                  <td><img src="Apollo8.png" alt="Apollo 8 Patch" style="width: 160px; height: 120px;"></td>
+                  <td>First circumlunar flight of CSM, had ten lunar orbits in 20 hours. First crewed flight of Saturn V.</td>
+                </tr>
+                <tr>
+                  <td>Apollo 9</td>
+                  <td>James McDivitt, David Scott, Rusty Schweickart</td>
+                  <td>03/03/1969</td>
+                  <td><img src="Apollo9.png" alt="Apollo 9 Patch" style="width: 160px; height: 120px;"></td>
+                  <td>First crewed flight test of Lunar Module; tested propulsion, rendezvous and docking. EVA tested the Portable Life Support System (PLSS).</td>
+                </tr>
+                <tr>
+                    <td>Apollo 10</td>
+                    <td>Thomas P. Stafford, John Young, Eugene Cernan</td>
+                    <td>18/05/1969</td>
+                    <td><img src="Apollo10.png" alt="Apollo 10 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>"Dress rehearsal" for lunar landing. The LM descended to 8.4 nautical miles (15.6 km) from lunar surface.</td>
+                  </tr>
+                  <tr>
+                    <td>Apollo 11</td>
+                    <td>Neil Armstrong, Michael Collins, Edwin "Buzz" Aldrin</td>
+                    <td>16/07/1969</td>
+                    <td><img src="Apollo11.png" alt="Apollo 11 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>First crewed landing in Sea of Tranquility; including a single surface EVA.</td>
+                  </tr>
+                  <tr>
+                    <td>Apollo 12</td>
+                    <td>Charles (Pete) Conrad, Richard F. Gordon Jr., Alan Bean</td>
+                    <td>14/11/1969</td>
+                    <td><img src="Apollo12.png" alt="Apollo 12 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>First precise Moon landing in Ocean of Storms near Surveyor 3 probe. Two surface EVAs and returned parts of Surveyor to Earth.</td>
+                  </tr>
+                  <tr>
+                    <td>Apollo 13</td>
+                    <td>James Lovell, Jack Swigert, Fred Haise</td>
+                    <td>11/04/1970</td>
+                    <td><img src="Apollo13.png" alt="Apollo 13 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>Intended Fra Mauro landing cancelled after SM oxygen tank exploded. LM used as "lifeboat" for safe crew return. First S-IVB stage impact on Moon for active seismic test. (Moon landing aborted)</td>
+                  </tr>
+                  <tr>
+                    <td>Apollo 14</td>
+                    <td>Alan Shepard, Stuart Roosa, Edgar Mitchell</td>
+                    <td>31/01/1971</td>
+                    <td><img src="Apollo14.png" alt="Apollo 14 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>Successful Fra Mauro landing. Broadcast first color TV images from lunar surface. Conducted first materials science experiments in space. Conducted two surface EVAs.</td>
+                  </tr>
+                  <tr>
+                    <td>Apollo 15</td>
+                    <td>David Scott, Alfred Worden, James Irwin</td>
+                    <td>26/07/1971</td>
+                    <td><img src="Apollo15.png" alt="Apollo 15 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>Landing at Hadley–Apennine. First extended LM, three-day lunar stay. First use of Lunar Roving Vehicle. Conducted 3 lunar surface EVAs and one deep space EVA on return to retrieve orbital camera film from SM.</td>
+                  </tr>
+                  <tr>
+                    <td>Apollo 16</td>
+                    <td>John Young, Ken Mattingly, Charles Duke</td>
+                    <td>16/04/1972</td>
+                    <td><img src="Apollo16.png" alt="Apollo 16 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>Landing in Descartes Highlands. Conducted 3 lunar EVAs and one deep space EVA.</td>
+                  </tr>
+                  <tr>
+                    <td>Apollo 17</td>
+                    <td>Gus Grissom, Ed White, Roger B. Chaffee</td>
+                    <td>07/12/1972</td>
+                    <td><img src="Apollo17.png" alt="Apollo 17 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>Final Moon mission - Landing at Taurus–Littrow. First professional geologist on the Moon. First night launch. Conducted 3 lunar EVAs and one deep space EVA.</td>
+                  </tr>
+                  <tr>
+                    <td>Skylab 1</td>
+                    <td>Unmanned</td>
+                    <td>14/05/1973</td>
+                    <td><img src="Skylab1.png" alt="Skylab 1 Patch" style="width: 160px; height: 120px;"></td>
+                    <td>Final flight of the Saturn V - Uncrewed launch of the Skylab space station. The space station was later crewed by missions Skylab 2, Skylab 3 and Skylab 4.</td>
+                  </tr>
+              </table>
+
+              <iframe width="1280" height="720" src="https://www.youtube.com/embed/oSP_xaYVfDI?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+              </iframe>
+        </div>
+
+        <div id=RightFacts>
+          <h2>How did it all work?</h2>
+          <img src="Apart.jpg" alt="Saturn V in each of its Stages">
+        </div>
+
+        <div id=Information>
+          <h3>Some facts about the Saturn V</h3>
+          <div id=P2  style="color: white; font-size: 20px;;">
+            <ul>
+              <li>Saturn V’s first stage, powered by five large kerosene–liquid-oxygen engines and weighing more than 2,000,000 kg (4,400,000 pounds) fully fueled.</li>
+              <li>It lifted itself, the second and third stages, and the spacecraft to a speed of 8,700 km (5,400 miles) per hour and to a point about 60 km (40 miles) above Earth.</li>
+              <li>The first stage was then jettisoned, and the second stage, powered by five smaller liquid-hydrogen–liquid-oxygen engines and weighing more than 450,000 kg (1,000,000 pounds)</li>
+              <li>They then took over, increasing speed to more than 22,000 km (nearly 14,000 miles) per hour.</li>
+              <li>At a point about 190 km (120 miles) above Earth, the second stage was jettisoned, and the liquid-fuel single-engine third stage ignited for about 2.5 minutes to accelerate the spacecraft to 27,400 km (17,000 miles) per hour.</li>
+              <li>This put it into a temporary parking orbit around Earth.</li>
+              <li>The astronauts then reignited the third-stage engine, which burned for another 51/2 minutes, cutting off at an altitude of about 300 km (190 miles) and a speed of about 40,000 km (25,000 miles) per hour, the velocity needed to escape Earth’s gravity</li>
+              <li>Hours afterward the third stage was jettisoned while the spacecraft traveled on toward the Moon.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+    <script>
+      function openNav() {
+        document.getElementById("myNav").style.width = "100%";
+      }
+      
+      function closeNav() {
+        document.getElementById("myNav").style.width = "0%";
+      }
+      </script>
+
+    </body>
+</html>

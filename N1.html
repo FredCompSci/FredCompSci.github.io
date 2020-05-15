@@ -1,0 +1,179 @@
+<html>
+    <head>
+        <Title>The Mighty N1</Title>
+        <link href="N1Styles.css" rel="stylesheet" stype="text/css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <style>
+          .overlay {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(0,0,0);
+            background-color: rgba(0,0,0, 0.9);
+            overflow-x: hidden;
+            transition: 0.5s;
+          }
+          
+          .overlay-content {
+            position: relative;
+            top: 25%;
+            width: 100%;
+            text-align: center;
+            margin-top: 30px;
+          }
+          
+          .overlay a {
+            padding: 8px;
+            text-decoration: none;
+            font-size: 36px;
+            color: #818181;
+            display: block;
+            transition: 0.3s;
+          }
+          
+          .overlay a:hover, .overlay a:focus {
+            color: #f1f1f1;
+          }
+          
+          .overlay .closebtn {
+            position: absolute;
+            top: 20px;
+            right: 45px;
+            font-size: 60px;
+          }
+          
+          @media screen and (max-height: 450px) {
+            .overlay a {font-size: 20px}
+            .overlay .closebtn {
+            font-size: 40px;
+            top: 15px;
+            right: 35px;
+            }
+          }
+          </style>
+    </head>
+
+    <body>
+
+        
+      <div id="myNav" class="overlay">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <div class="overlay-content">
+          <a href="Menu.html">Menu</a>
+          <a href="SaturnV.html">Saturn V</a>
+        </div>
+      </div>
+
+      <audio autoplay loop controls>
+        <source src="USSR.mp3" type="audio/mpeg" >
+      Your browser does not support the audio element.
+      </audio>
+
+    <div id="main">
+        <div id="Title" style="text-align: center; font-size: 36px; font-family: Helvetica;">
+          <span style="font-size:30px;cursor:pointer;color: white;" onclick="openNav()">&#9776; Navigation</span>
+          <h1>N1-L3 - Soviet Union(USSR)</h1>
+          <img src="N1BOOM.gif", width="960" height="406" alt="N1 taking off">
+        </div>
+
+        <h2>What is the N1-l3?</h2>
+        <div id="Paragraph1" style="color: white; font-size: 20px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+            <p>The N1-L3 was a variant of the Soviet N1 rockets designed to go to the Moon</p>
+            <p>The basic N1 launch vehicle had three stages, which were to carry the L3 lunar payload into low Earth orbit with two cosmonauts.</p>
+            <p>The L3 contained one stage for trans-lunar injection; another stage used for mid-course corrections, lunar orbit insertion, and the first part of the descent to the lunar surface</p>
+            <P>a single-pilot LK Lander spacecraft; and a two-pilot Soyuz 7K-LOK lunar orbital spacecraft for return to Earth.</P>
+        </div>
+
+        <h3>Why did the Soviets fail to get to the Moon?</h3>
+        <div id="Paragraph2" style="color: white; font-size: 20px; text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;">
+          <p>N1-L3 was underfunded and rushed, starting development in October 1965, almost four years after the Saturn V</p>
+          <p>The project was badly derailed by the death of its chief designer Sergei Korolev in 1966. Each of the four attempts to launch an N1 failed</p>
+          <p>The second attempt resulted in the vehicle crashing back onto its launch pad shortly after liftoff and causing one of the largest artificial non-nuclear explosions in human history.</p>
+          <p>The N1 program was suspended in 1974, and officially canceled in 1976. All details of the Soviet crewed lunar programs were kept secret until the Soviet Union was nearing collapse in 1989.</p>
+        </div>
+
+        <div id="LeftFacts">
+          <h2>Launches</h2>
+          <table style="text-align: center;">
+            <tr>
+              <th>Laucn</th>
+              <th>Serial Number</th>
+              <th>Date</th>
+              <th>Outcome</th>
+            </tr>
+            <tr>
+              <td>1</tde>
+              <td>3L</td>
+              <td>21/02/1969</td>
+              <td>Failure - Leaked propellant caused fire destroying power supply wiring + multiple engine shut offs, first stage shut down early where rocket then fell back to ground and exploded</td>
+            </tr>
+            <tr>
+              <td>2</td>
+              <td>5L</td>
+              <td>03/07/1969</td>
+              <td>Failure - Rocket lifted off and just cleared tower until all but 1 of the 30 engines shut off causing it to crash down onto the pad with 2300 tons of propellant, destroying the pad and creating one of the largest non-nuclear explosions</td>
+            </tr>
+            <tr>
+              <td>3</tde>
+              <td>6L</td>
+              <td>26/06/1971</td>
+              <td>Failure - Uncontrolled roll just after lift off which increased to nearly 40° per second, vehicle shortly after disintergrated from structural loads</td>
+            </tr>
+            <tr>
+              <td>4 - Final Launch</tde>
+              <td>7L</td>
+              <td>23/11/1972</td>
+              <td>Failure - All was well until 6 abrupt engine shut down causing a fire in the boattaul of the booster resulting in first stage breaking up at t+107s into flight</td>
+            </tr>
+            <tr>
+              <td>5</tde>
+              <td>8L</td>
+              <td>N/A</td>
+              <td>Canceled as program was canceled in May 1974</td>
+            </tr>
+          </table>
+
+          <iframe width="960" height="540" src="https://www.youtube.com/embed/U9fkYIrRwbo?showinfo=0&controls=0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+          </iframe>
+        </div>
+
+        <div id=RightFacts>
+          <h2>How would have it got to the Moon?</h2>
+          <h3>Soyuz 7K-LOK - Лунный Орбитальный Корабль</h3>
+          <p>This was the Orbital Module which had a crew capacity of 2</p>
+          <p>Only a dummy made it into orbit ontop of a "Proton" rocket</p>
+          <img src="Soyuz.jpg" alt="Soyuz 7K-LOK Orbial Module" width="480px", height="270px">
+          <h3>LK Lunar Lander - ЛК</h3>
+          <p>This was the lunar lander which had a crew capacity of 1</p>
+          <p>It was designed to be on the lunar surface for a maximum of 48 hours</p>
+          <img src="LK3.jpg" alt="LK-3 Lunar Lander" width="270px", height="480px">
+        </div>
+
+        <div id=Information>
+          <h3>Some facts about the N1-L3</h3>
+          <div id=P2  style="color: white; font-size: 20px;;">
+            <ul>
+              <li>The N1 has a payload capcity of 50 metric tons</li>
+              <li>It was one of three proposed rockets to the Soviet military with the N1 being the largest</li>
+              <li>The first stage remains the most powerful rocket stage to date with a thrust at sea level of 45,300kN</li>
+              <li>It was also design to be adapted to be able to launch military space stations and later a crewed flyby of Venus and Mars</li>
+              <li>Due to its power, along with the Saturn V it is one of the few vehicles that enter in the class of "Super heavy-lift launch vehicle" (Able to lift 50 tons+ to Low Earth Orbit (LEO)</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+        <script>
+            function openNav() {
+              document.getElementById("myNav").style.width = "100%";
+            }
+            
+            function closeNav() {
+              document.getElementById("myNav").style.width = "0%";
+            }
+            </script>
+    </body>
+</html>
